@@ -211,3 +211,7 @@ figure img { width: 100%; }
 .source-list li { margin-bottom: .6rem; }
 .concept h3 { margin-bottom: .75rem; }
 .theme-note p:last-child { margin-bottom: 0; }
+
+/* Preserve photo proportions without cropping. */
+figure img { height: auto; max-height: none; }
+figure.portrait { max-width: 28rem; margin-left: auto; margin-right: auto; }

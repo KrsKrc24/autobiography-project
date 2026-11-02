@@ -8,7 +8,7 @@ Open index.html, or run `python3 -m http.server 8765` in this directory and visi
 
 ## Content
 
-Each life stage includes a personal story, three textbook concepts with section links, the curiosity theme, family and cultural context, and a reflection. The theme connects to continuous development in OpenStax Section 1.2. All three illustrations are original SVGs representing the supplied memories.
+Each life stage includes a personal story, three textbook concepts with section links, the curiosity theme, family and cultural context, and a reflection. The theme connects to continuous development in OpenStax Section 1.2. The pages use childhood photos supplied by Shritan and a portrait and conference photo from International Children’s Wellness. Source credits are included.
 
 Both course textbooks are listed on the references page. Concept citations point to the OpenStax sections used. The supplied Open Course Library link for Overstreet is retained, but the original page could not be opened during review. The course slides were not supplied, so their exact theme list could not be checked.
 
