@@ -39,7 +39,9 @@
     document.title = `${post.title} · ${author}`;
     document.querySelectorAll("[data-post-title]").forEach((node) => (node.textContent = post.title));
     document.querySelectorAll("[data-post-ages]").forEach((node) => (node.textContent = post.ages));
-    document.querySelectorAll("[data-post-number]").forEach((node) => (node.textContent = `Post ${current + 1} of ${posts.length}`));
+    const storyCount = posts.length - 2;
+    const label = current === 0 ? "Introduction" : current === posts.length - 1 ? "Conclusion" : `Story ${current} of ${storyCount}`;
+    document.querySelectorAll("[data-post-number]").forEach((node) => (node.textContent = label));
   }
 
   function renderTheme() {
@@ -52,7 +54,7 @@
   function renderRoadmap() {
     const roadmap = document.getElementById("roadmap");
     if (!roadmap) return;
-    posts.slice(1).forEach((post) => {
+    posts.slice(1, -1).forEach((post) => {
       const link = el("a", { href: post.href },
         el("span", { className: "road-ages", textContent: post.ages }),
         el("span", { className: "road-title", textContent: post.title }));

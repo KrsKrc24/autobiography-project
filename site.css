@@ -59,7 +59,7 @@ figcaption { margin-top: .7rem; color: var(--muted); font: .8rem/1.6 var(--sans)
 .lightbox img { max-height: 76vh; width: auto; margin: auto; }
 .lightbox p { margin: .75rem 0 0; font: .85rem/1.6 var(--sans); }
 .lightbox-close { display: block; margin: 0 0 .75rem auto; background: transparent; border: 1px solid var(--rule); padding: .4rem .75rem; font: .85rem var(--sans); cursor: pointer; }
-@media (max-width: 760px) {
+@media (max-width: 1400px) {
   .nav { padding: 1rem 1.5rem; }
   .nav-toggle { display: block; }
   .nav-list { display: none; flex-direction: column; flex-basis: 100%; gap: .2rem; }
