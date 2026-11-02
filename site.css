@@ -71,3 +71,6 @@ figcaption { margin-top: .7rem; color: var(--muted); font: .8rem/1.6 var(--sans)
   .nav, .pager { display: none; }
   body { background: #fff; color: #000; font-size: 11pt; }
 }
+
+/* Keep the small speaking image close to its native display size. */
+figure.speaking-photo { max-width: 19rem; }
