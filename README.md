@@ -1,31 +1,21 @@
 # Autobiography Project
 
-Static site for PSYC& 200. No build step or dependencies.
+Five posts for PSYC& 200: an introduction, early childhood, middle childhood, adolescence, and a conclusion. References are on a separate page.
 
-## Filling it in
+## Preview
 
-- Set your guiding theme, and rename stages or change ages, in `site-config.js`.
-- In each page, replace every orange dashed box with your own writing:
+Open index.html, or run `python3 -m http.server 8765` in this directory and visit http://localhost:8765.
 
-  ```html
-  <p>Your paragraph here.</p>
-  ```
+## Content
 
-- Put photos in `images/` and replace each photo box with:
+Each life stage includes a personal story, three textbook concepts with section links, the curiosity theme, family and cultural context, and a reflection. The theme connects to continuous development in OpenStax Section 1.2. All three illustrations are original SVGs representing the supplied memories.
 
-  ```html
-  <figure>
-    <img src="images/your-photo.jpg" alt="Describe the photo">
-    <figcaption>Your caption.</figcaption>
-  </figure>
-  ```
+Both course textbooks are listed on the references page. Concept citations point to the OpenStax sections used. The supplied Open Course Library link for Overstreet is retained, but the original page could not be opened during review. The course slides were not supplied, so their exact theme list could not be checked.
 
-The banner at the top of each page counts what is left on that page and disappears at zero.
+## Deployment
 
-## Deploying
-
-In Vercel, choose Add New > Project and import this repository. Leave the framework preset as Other with no build command. Every push to `main` redeploys the site.
+Static HTML, CSS, and JavaScript; no build step or dependencies. Import this repository in Vercel using the Other framework preset and no build command.
 
 ## Privacy
 
-This repository is public, so anything committed here, including photos, is public. Pages are marked `noindex` to keep them out of search results, but anyone with the link can read them.
+This repository is public. Pages have a noindex tag, but anyone with the link can read them.

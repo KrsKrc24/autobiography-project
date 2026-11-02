@@ -4,7 +4,7 @@ window.SITE = {
   course: "PSYC& 200 · Lifespan Development · Fall 2026",
 
   // The guiding theme or theory from the course slides, e.g. the name of the theory.
-  theme: "Growing curiosity · continuity and change",
+  theme: "How my curiosity has grown",
 
   // The five posts, in order. Rename stages and change ages freely.
   posts: [
