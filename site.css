@@ -149,8 +149,8 @@ p { margin: 0 0 1.1rem; }
 
 /* Photos */
 figure { margin: 2rem 0; }
-figure img { width: 100%; border-radius: 4px; cursor: zoom-in; }
-figcaption { margin-top: 0.5rem; color: var(--muted); font: 400 0.875rem/1.45 var(--sans); }
+figure img { max-height: 32rem; border-radius: 4px; cursor: zoom-in; }
+figcaption { margin-top: 0.75rem; color: var(--muted); font: 400 0.875rem/1.45 var(--sans); }
 
 .lightbox { max-width: min(92vw, 60rem); padding: 1rem; background: var(--surface); color: var(--ink); border: 0; border-radius: 6px; }
 .lightbox::backdrop { background: rgb(0 0 0 / 0.75); }
