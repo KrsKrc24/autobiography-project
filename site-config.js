@@ -9,9 +9,9 @@ window.SITE = {
   // The five posts, in order. Rename stages and change ages freely.
   posts: [
     { href: "index.html", title: "Introduction", ages: "Where this project starts" },
-    { href: "stage-1.html", title: "Early Childhood", ages: "Ages 2 to 6" },
-    { href: "stage-2.html", title: "Middle Childhood", ages: "Ages 6 to 12" },
-    { href: "stage-3.html", title: "Adolescence", ages: "Ages 12 to 18" },
+    { href: "stage-1.html", title: "Early Childhood", ages: "Ages 0 to 5" },
+    { href: "stage-2.html", title: "Middle Childhood", ages: "Ages 6 to 11" },
+    { href: "stage-3.html", title: "Adolescence", ages: "Age 12 to present" },
     { href: "conclusion.html", title: "Conclusion", ages: "What it adds up to" },
   ],
 };
