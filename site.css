@@ -203,3 +203,5 @@ figcaption { margin-top: 0.75rem; color: var(--muted); font: 400 0.875rem/1.45 v
   .draft-notice, .nav, .pager { display: none; }
   body { background: #fff; color: #000; font-size: 11pt; }
 }
+
+figure img { width: 100%; }
